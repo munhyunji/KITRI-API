@@ -1,0 +1,541 @@
+[INFO ] 08:56:34.029 c.w.b.wemagine.WemagineApplication - Starting WemagineApplication using Java 1.8.0_281 on DESKTOP-F90DHD0 with PID 12608 (C:\Users\wemag\OneDrive\바탕 화면\wemagine\bin\main started by wemag in C:\Users\wemag\OneDrive\바탕 화면\wemagine)
+[INFO ] 08:56:34.032 c.w.b.wemagine.WemagineApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 08:56:35.016 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 08:56:35.036 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[WARN ] 08:56:35.125 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.wemagine.basic.wemagine]' package. Please check your configuration.
+[INFO ] 08:56:35.589 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 08:56:35.599 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 08:56:35.600 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 08:56:35.600 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 08:56:35.874 org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 08:56:35.880 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 08:56:35.880 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1620 ms
+[INFO ] 08:56:36.029 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 08:56:36.120 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 08:56:36.249 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO ] 08:56:36.468 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 08:56:36.644 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[INFO ] 08:56:36.861 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 08:56:36.872 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 08:56:37.115 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 08:56:37.361 o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 08:56:37.554 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 08:56:37.579 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 08:56:37.703 c.w.b.wemagine.WemagineApplication - Started WemagineApplication in 4.164 seconds (JVM running for 5.789)
+[INFO ] 09:01:26.877 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 09:01:26.877 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 09:01:26.878 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 10:40:56.220 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 10:40:57.248 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8000"]
+[INFO ] 10:40:57.249 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 10:40:57.251 o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 10:40:57.257 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8000"]
+[INFO ] 10:40:57.262 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8000"]
+[INFO ] 10:40:57.269 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 10:40:57.277 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 10:40:57.284 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 10:42:25.854 c.w.b.wemagine.WemagineApplication - Starting WemagineApplication using Java 1.8.0_281 on DESKTOP-F90DHD0 with PID 7436 (C:\Users\wemag\OneDrive\바탕 화면\wemagine\bin\main started by wemag in C:\Users\wemag\OneDrive\바탕 화면\wemagine)
+[INFO ] 10:42:25.854 c.w.b.wemagine.WemagineApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 10:42:26.652 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 10:42:26.668 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+[WARN ] 10:42:26.746 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.wemagine.basic.wemagine]' package. Please check your configuration.
+[INFO ] 10:42:27.141 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 10:42:27.156 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 10:42:27.156 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 10:42:27.156 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 10:42:27.406 org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 10:42:27.406 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 10:42:27.406 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1364 ms
+[INFO ] 10:42:27.531 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 10:42:27.594 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 10:42:27.688 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO ] 10:42:27.836 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 10:42:27.961 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[INFO ] 10:42:28.133 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 10:42:28.148 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 10:42:28.352 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 10:42:28.611 o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 10:42:28.801 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 10:42:28.823 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 10:42:29.014 c.w.b.wemagine.WemagineApplication - Started WemagineApplication in 3.513 seconds (JVM running for 5.163)
+[INFO ] 10:42:33.371 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 10:42:33.372 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 10:42:33.373 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 10:44:59.966 c.w.b.wemagine.WemagineApplication - Starting WemagineApplication using Java 1.8.0_281 on DESKTOP-F90DHD0 with PID 8788 (C:\Users\wemag\OneDrive\바탕 화면\wemagine\bin\main started by wemag in C:\Users\wemag\OneDrive\바탕 화면\wemagine)
+[INFO ] 10:44:59.968 c.w.b.wemagine.WemagineApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 10:45:00.799 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 10:45:00.816 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[WARN ] 10:45:00.900 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.wemagine.basic.wemagine]' package. Please check your configuration.
+[INFO ] 10:45:01.300 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 10:45:01.309 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 10:45:01.309 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 10:45:01.310 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 10:45:01.564 org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 10:45:01.569 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 10:45:01.569 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1405 ms
+[INFO ] 10:45:01.696 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 10:45:01.766 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 10:45:01.858 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO ] 10:45:02.024 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 10:45:02.150 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[INFO ] 10:45:02.321 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 10:45:02.331 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 10:45:02.557 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 10:45:02.779 o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 10:45:02.936 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[WARN ] 10:45:02.940 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8000 is already in use
+[INFO ] 10:45:02.943 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 10:45:02.945 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 10:45:02.949 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 10:45:02.950 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8000"]
+[INFO ] 10:45:02.950 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 10:45:02.952 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8000"]
+[INFO ] 10:45:02.953 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8000"]
+[ERROR] 10:45:02.991 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
+
+[WARN ] 10:48:37.801 o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (',' (code 44)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (',' (code 44)): expected a value<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 2, column: 11]]
+[INFO ] 10:53:34.392 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 10:53:35.397 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8000"]
+[INFO ] 10:53:35.398 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 10:53:35.399 o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 10:53:35.401 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8000"]
+[INFO ] 10:53:35.403 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8000"]
+[INFO ] 10:53:35.406 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 10:53:35.408 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 10:53:35.412 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 10:54:20.900 c.w.b.wemagine.WemagineApplication - Starting WemagineApplication using Java 1.8.0_281 on DESKTOP-F90DHD0 with PID 19732 (C:\Users\wemag\OneDrive\바탕 화면\wemagine\bin\main started by wemag in C:\Users\wemag\OneDrive\바탕 화면\wemagine)
+[INFO ] 10:54:20.902 c.w.b.wemagine.WemagineApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 10:54:21.709 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 10:54:21.725 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[WARN ] 10:54:21.804 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.wemagine.basic.wemagine]' package. Please check your configuration.
+[INFO ] 10:54:22.196 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 10:54:22.204 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 10:54:22.205 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 10:54:22.205 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 10:54:22.454 org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 10:54:22.460 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 10:54:22.460 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1371 ms
+[INFO ] 10:54:22.590 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 10:54:22.660 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 10:54:22.754 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO ] 10:54:22.921 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 10:54:23.049 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[INFO ] 10:54:23.218 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 10:54:23.229 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 10:54:23.453 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 10:54:23.677 o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 10:54:23.835 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 10:54:23.857 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 10:54:24.036 c.w.b.wemagine.WemagineApplication - Started WemagineApplication in 3.505 seconds (JVM running for 5.049)
+[INFO ] 10:54:36.443 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 10:54:36.444 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 10:54:36.445 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[ERROR] 10:54:51.473 c.w.b.w.controller.NoticeController - org.springframework.dao.InvalidDataAccessApiUsageException: No value supplied for the SQL parameter 'file1': No value registered for key 'file1'
+[ERROR] 10:55:35.208 c.w.b.w.controller.NoticeController - org.springframework.dao.InvalidDataAccessApiUsageException: No value supplied for the SQL parameter 'file1': No value registered for key 'file1'
+[ERROR] 10:55:45.955 c.w.b.w.controller.NoticeController - org.springframework.dao.InvalidDataAccessApiUsageException: No value supplied for the SQL parameter 'file1': No value registered for key 'file1'
+[ERROR] 10:55:55.564 c.w.b.w.controller.NoticeController - org.springframework.dao.InvalidDataAccessApiUsageException: No value supplied for the SQL parameter 'file1': No value registered for key 'file1'
+[INFO ] 11:00:23.525 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 11:00:24.561 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:00:24.562 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 11:00:24.563 o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 11:00:24.566 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:00:24.568 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:00:24.571 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 11:00:24.573 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 11:00:24.577 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 11:01:27.520 c.w.b.wemagine.WemagineApplication - Starting WemagineApplication using Java 1.8.0_281 on DESKTOP-F90DHD0 with PID 20724 (C:\Users\wemag\OneDrive\바탕 화면\wemagine\bin\main started by wemag in C:\Users\wemag\OneDrive\바탕 화면\wemagine)
+[INFO ] 11:01:27.523 c.w.b.wemagine.WemagineApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 11:01:28.332 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 11:01:28.349 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[WARN ] 11:01:28.430 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.wemagine.basic.wemagine]' package. Please check your configuration.
+[INFO ] 11:01:28.825 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 11:01:28.834 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:01:28.835 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 11:01:28.835 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 11:01:29.133 org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 11:01:29.138 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 11:01:29.138 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1427 ms
+[INFO ] 11:01:29.270 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 11:01:29.335 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 11:01:29.427 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO ] 11:01:29.586 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 11:01:29.712 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[INFO ] 11:01:29.888 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 11:01:29.898 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 11:01:30.123 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 11:01:30.352 o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 11:01:30.513 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:01:30.534 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 11:01:30.716 c.w.b.wemagine.WemagineApplication - Started WemagineApplication in 3.568 seconds (JVM running for 5.111)
+[INFO ] 11:01:34.214 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 11:01:34.215 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 11:01:34.216 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[ERROR] 11:01:44.249 c.w.b.w.controller.NoticeController - org.springframework.dao.InvalidDataAccessApiUsageException: No value supplied for the SQL parameter 'file1': No value registered for key 'file1'
+[ERROR] 11:10:53.505 c.w.b.w.controller.NoticeController - org.springframework.dao.InvalidDataAccessApiUsageException: No value supplied for the SQL parameter 'file1': No value registered for key 'file1'
+[ERROR] 11:15:16.171 c.w.b.w.controller.NoticeController - org.springframework.dao.InvalidDataAccessApiUsageException: No value supplied for the SQL parameter 'file1': No value registered for key 'file1'
+[ERROR] 11:17:02.382 c.w.b.w.controller.NoticeController - org.springframework.dao.InvalidDataAccessApiUsageException: No value supplied for the SQL parameter 'file1': No value registered for key 'file1'
+[ERROR] 11:17:32.275 c.w.b.w.controller.NoticeController - org.springframework.dao.InvalidDataAccessApiUsageException: No value supplied for the SQL parameter 'file1': No value registered for key 'file1'
+[INFO ] 11:19:50.650 c.w.b.wemagine.WemagineApplication - Starting WemagineApplication using Java 1.8.0_281 on DESKTOP-F90DHD0 with PID 784 (C:\Users\wemag\OneDrive\바탕 화면\wemagine\bin\main started by wemag in C:\Users\wemag\OneDrive\바탕 화면\wemagine)
+[INFO ] 11:19:50.653 c.w.b.wemagine.WemagineApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 11:19:51.543 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 11:19:51.561 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[WARN ] 11:19:51.648 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.wemagine.basic.wemagine]' package. Please check your configuration.
+[INFO ] 11:19:52.074 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 11:19:52.083 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:19:52.083 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 11:19:52.084 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 11:19:52.357 org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 11:19:52.363 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 11:19:52.363 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1511 ms
+[INFO ] 11:19:52.501 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 11:19:52.582 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 11:19:52.675 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO ] 11:19:52.839 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 11:19:52.969 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[INFO ] 11:19:53.139 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 11:19:53.149 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 11:19:53.397 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 11:19:53.643 o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 11:19:53.805 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[WARN ] 11:19:53.808 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8000 is already in use
+[INFO ] 11:19:53.811 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 11:19:53.813 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 11:19:53.817 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 11:19:53.818 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:19:53.818 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 11:19:53.821 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:19:53.821 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8000"]
+[ERROR] 11:19:53.852 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
+
+[ERROR] 11:20:18.744 c.w.b.w.controller.NoticeController - org.springframework.dao.InvalidDataAccessApiUsageException: No value supplied for the SQL parameter 'file1': No value registered for key 'file1'
+[INFO ] 11:24:40.848 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 11:24:41.847 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:24:41.848 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 11:24:41.849 o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 11:24:41.851 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:24:41.853 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:24:41.856 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 11:24:41.858 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 11:24:41.861 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 11:25:31.712 c.w.b.wemagine.WemagineApplication - Starting WemagineApplication using Java 1.8.0_281 on DESKTOP-F90DHD0 with PID 13740 (C:\Users\wemag\OneDrive\바탕 화면\wemagine\bin\main started by wemag in C:\Users\wemag\OneDrive\바탕 화면\wemagine)
+[INFO ] 11:25:31.715 c.w.b.wemagine.WemagineApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 11:25:32.529 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 11:25:32.546 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[WARN ] 11:25:32.627 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.wemagine.basic.wemagine]' package. Please check your configuration.
+[INFO ] 11:25:33.025 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 11:25:33.034 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:25:33.034 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 11:25:33.034 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 11:25:33.284 org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 11:25:33.289 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 11:25:33.290 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1387 ms
+[INFO ] 11:25:33.424 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 11:25:33.490 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 11:25:33.581 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO ] 11:25:33.741 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 11:25:33.867 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[INFO ] 11:25:34.039 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 11:25:34.049 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 11:25:34.278 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 11:25:34.509 o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 11:25:34.670 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:25:34.692 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 11:25:34.879 c.w.b.wemagine.WemagineApplication - Started WemagineApplication in 3.537 seconds (JVM running for 5.092)
+[INFO ] 11:25:44.912 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 11:25:44.912 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 11:25:44.913 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[WARN ] 11:25:51.931 o.m.jdbc.message.server.ErrorPacket - Error: 1292-22007: Incorrect datetime value: 'string' for column 'datetime' at row 1
+[ERROR] 11:25:51.981 c.w.b.w.controller.NoticeController - org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [
+		INSERT INTO `board|basic|notice|notice` (
+			datetime,
+			user_id,
+			user_name,
+			title,
+			content,
+			file1,
+			file1_name,
+			file2,
+			file2_name,
+			file3,
+			file3_name,
+			file4,
+			file4_name,
+			file5,
+			file5_name,
+			views,
+			is_head,
+			is_open
+				) VALUES (
+			?,
+			?,
+			?,
+			?,
+			?,
+			?,
+			?,
+			?,
+			?,
+			?,
+			?,
+			?,
+			?,
+			?,
+			?,
+			?,
+			?,
+			?
+
+		)
+	]; nested exception is java.sql.SQLSyntaxErrorException: (conn=2242) Incorrect datetime value: 'string' for column 'datetime' at row 1
+[INFO ] 11:29:52.005 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 11:29:52.957 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:29:52.958 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 11:29:52.959 o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 11:29:52.961 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:29:52.963 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:29:52.966 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 11:29:52.968 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 11:29:52.971 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 11:30:36.205 c.w.b.wemagine.WemagineApplication - Starting WemagineApplication using Java 1.8.0_281 on DESKTOP-F90DHD0 with PID 5544 (C:\Users\wemag\OneDrive\바탕 화면\wemagine\bin\main started by wemag in C:\Users\wemag\OneDrive\바탕 화면\wemagine)
+[INFO ] 11:30:36.208 c.w.b.wemagine.WemagineApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 11:30:37.021 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 11:30:37.038 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[WARN ] 11:30:37.118 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.wemagine.basic.wemagine]' package. Please check your configuration.
+[INFO ] 11:30:37.512 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 11:30:37.520 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:30:37.521 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 11:30:37.521 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 11:30:37.773 org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 11:30:37.778 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 11:30:37.778 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1381 ms
+[INFO ] 11:30:37.909 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 11:30:37.976 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 11:30:38.067 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO ] 11:30:38.226 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 11:30:38.352 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[INFO ] 11:30:38.522 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 11:30:38.532 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 11:30:38.756 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 11:30:38.987 o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 11:30:39.160 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 11:30:39.181 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 11:30:39.362 c.w.b.wemagine.WemagineApplication - Started WemagineApplication in 3.531 seconds (JVM running for 5.347)
+[INFO ] 11:30:43.104 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 11:30:43.104 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 11:30:43.106 o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 13:10:51.188 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 13:10:52.204 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8000"]
+[INFO ] 13:10:52.205 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 13:10:52.207 o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 13:10:52.211 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8000"]
+[INFO ] 13:10:52.214 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8000"]
+[INFO ] 13:10:52.219 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 13:10:52.222 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 13:10:52.227 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 13:20:20.716 c.w.b.wemagine.WemagineApplication - Starting WemagineApplication using Java 1.8.0_281 on DESKTOP-F90DHD0 with PID 26036 (C:\Users\wemag\OneDrive\바탕 화면\wemagine\bin\main started by wemag in C:\Users\wemag\OneDrive\바탕 화면\wemagine)
+[INFO ] 13:20:20.719 c.w.b.wemagine.WemagineApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 13:20:21.559 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 13:20:21.576 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[WARN ] 13:20:21.658 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.wemagine.basic.wemagine]' package. Please check your configuration.
+[INFO ] 13:20:22.054 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 13:20:22.063 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 13:20:22.063 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 13:20:22.064 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 13:20:22.318 org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 13:20:22.323 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 13:20:22.323 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1408 ms
+[INFO ] 13:20:22.457 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 13:20:22.524 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 13:20:22.616 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO ] 13:20:22.819 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 13:20:22.955 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[INFO ] 13:20:23.129 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 13:20:23.140 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 13:20:23.370 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 13:20:23.609 o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 13:20:23.775 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 13:20:23.797 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 13:20:24.034 c.w.b.wemagine.WemagineApplication - Started WemagineApplication in 3.733 seconds (JVM running for 5.32)
+[INFO ] 14:38:46.471 c.w.b.wemagine.WemagineApplication - Starting WemagineApplication using Java 1.8.0_281 on DESKTOP-F90DHD0 with PID 1308 (C:\Users\wemag\OneDrive\바탕 화면\wemagine\bin\main started by wemag in C:\Users\wemag\OneDrive\바탕 화면\wemagine)
+[INFO ] 14:38:46.473 c.w.b.wemagine.WemagineApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 14:38:47.282 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 14:38:47.298 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[WARN ] 14:38:47.381 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.wemagine.basic.wemagine]' package. Please check your configuration.
+[INFO ] 14:38:47.774 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 14:38:47.782 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 14:38:47.783 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:38:47.783 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 14:38:48.035 org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 14:38:48.040 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:38:48.041 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1379 ms
+[INFO ] 14:38:48.169 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 14:38:48.233 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 14:38:48.322 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO ] 14:38:48.480 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 14:38:48.608 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[INFO ] 14:38:48.777 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 14:38:48.787 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 14:38:49.008 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 14:38:49.235 o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 14:38:49.393 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[WARN ] 14:38:49.396 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8000 is already in use
+[INFO ] 14:38:49.399 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 14:38:49.401 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 14:38:49.405 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 14:38:49.406 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8000"]
+[INFO ] 14:38:49.406 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 14:38:49.408 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8000"]
+[INFO ] 14:38:49.409 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8000"]
+[ERROR] 14:38:49.440 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
+
+[INFO ] 14:38:52.982 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 14:38:52.982 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 14:38:52.983 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[WARN ] 14:39:38.914 o.m.jdbc.message.server.ErrorPacket - Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': file1_name,
+			File2 = 'string',
+			File2_name = : file2_name,
+			File3 = '' at line 8
+[INFO ] 14:40:19.863 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 14:40:20.823 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8000"]
+[INFO ] 14:40:20.823 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 14:40:20.824 o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 14:40:20.826 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8000"]
+[INFO ] 14:40:20.829 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8000"]
+[INFO ] 14:40:20.832 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 14:40:20.833 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 14:40:20.839 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 14:41:25.127 c.w.b.wemagine.WemagineApplication - Starting WemagineApplication using Java 1.8.0_281 on DESKTOP-F90DHD0 with PID 7220 (C:\Users\wemag\OneDrive\바탕 화면\wemagine\bin\main started by wemag in C:\Users\wemag\OneDrive\바탕 화면\wemagine)
+[INFO ] 14:41:25.130 c.w.b.wemagine.WemagineApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 14:41:25.925 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 14:41:25.942 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[WARN ] 14:41:26.024 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.wemagine.basic.wemagine]' package. Please check your configuration.
+[INFO ] 14:41:26.416 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 14:41:26.424 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 14:41:26.425 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:41:26.425 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 14:41:26.675 org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 14:41:26.680 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:41:26.681 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1363 ms
+[INFO ] 14:41:26.815 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 14:41:26.880 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 14:41:26.970 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO ] 14:41:27.129 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 14:41:27.256 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[INFO ] 14:41:27.432 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 14:41:27.442 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 14:41:27.674 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 14:41:27.907 o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 14:41:28.120 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 14:41:28.152 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 14:41:28.380 c.w.b.wemagine.WemagineApplication - Started WemagineApplication in 3.62 seconds (JVM running for 5.198)
+[INFO ] 14:41:31.749 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 14:41:31.750 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 14:41:31.751 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 15:19:43.353 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 15:19:44.353 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8000"]
+[INFO ] 15:19:44.354 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 15:19:44.355 o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 15:19:44.357 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8000"]
+[INFO ] 15:19:44.359 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8000"]
+[INFO ] 15:19:44.362 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 15:19:44.363 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 15:19:44.370 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 15:20:32.578 c.w.b.wemagine.WemagineApplication - Starting WemagineApplication using Java 1.8.0_281 on DESKTOP-F90DHD0 with PID 13028 (C:\Users\wemag\OneDrive\바탕 화면\wemagine\bin\main started by wemag in C:\Users\wemag\OneDrive\바탕 화면\wemagine)
+[INFO ] 15:20:32.578 c.w.b.wemagine.WemagineApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 15:20:33.390 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 15:20:33.406 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[WARN ] 15:20:33.484 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.wemagine.basic.wemagine]' package. Please check your configuration.
+[INFO ] 15:20:33.872 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 15:20:33.888 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 15:20:33.888 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:20:33.888 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 15:20:34.138 org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 15:20:34.138 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:20:34.138 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1357 ms
+[INFO ] 15:20:34.263 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 15:20:34.341 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 15:20:34.435 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO ] 15:20:34.593 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 15:20:34.718 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[INFO ] 15:20:34.875 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 15:20:34.890 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 15:20:35.109 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 15:20:35.343 o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 15:20:35.499 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 15:20:35.515 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 15:20:35.717 c.w.b.wemagine.WemagineApplication - Started WemagineApplication in 3.496 seconds (JVM running for 5.025)
+[INFO ] 15:21:04.171 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 15:21:04.172 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 15:21:04.173 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 15:26:30.546 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 15:26:31.618 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8000"]
+[INFO ] 15:26:31.618 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 15:26:31.619 o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 15:26:31.621 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8000"]
+[INFO ] 15:26:31.623 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8000"]
+[INFO ] 15:26:31.626 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 15:26:31.628 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 15:26:31.631 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 15:27:18.297 c.w.b.wemagine.WemagineApplication - Starting WemagineApplication using Java 1.8.0_281 on DESKTOP-F90DHD0 with PID 17868 (C:\Users\wemag\OneDrive\바탕 화면\wemagine\bin\main started by wemag in C:\Users\wemag\OneDrive\바탕 화면\wemagine)
+[INFO ] 15:27:18.297 c.w.b.wemagine.WemagineApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 15:27:19.113 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 15:27:19.128 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[WARN ] 15:27:19.206 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.wemagine.basic.wemagine]' package. Please check your configuration.
+[INFO ] 15:27:19.590 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 15:27:19.606 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 15:27:19.606 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:27:19.606 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 15:27:19.856 org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 15:27:19.856 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:27:19.856 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1356 ms
+[INFO ] 15:27:19.981 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 15:27:20.059 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 15:27:20.137 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO ] 15:27:20.304 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 15:27:20.429 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[INFO ] 15:27:20.601 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 15:27:20.616 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 15:27:20.835 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 15:27:21.054 o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 15:27:21.210 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 15:27:21.241 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 15:27:21.430 c.w.b.wemagine.WemagineApplication - Started WemagineApplication in 3.492 seconds (JVM running for 5.038)
+[INFO ] 15:27:27.245 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 15:27:27.245 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 15:27:27.246 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms

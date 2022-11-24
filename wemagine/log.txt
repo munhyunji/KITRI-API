@@ -1,0 +1,32 @@
+[INFO ] 15:22:34.290 c.w.b.wemagine.WemagineApplication - Starting WemagineApplication using Java 1.8.0_281 on DESKTOP-F90DHD0 with PID 11436 (C:\Users\wemag\OneDrive\바탕 화면\wemagine\bin\main started by wemag in C:\Users\wemag\OneDrive\바탕 화면\wemagine)
+[INFO ] 15:22:34.293 c.w.b.wemagine.WemagineApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 15:22:34.779 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 15:22:34.793 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+[WARN ] 15:22:34.870 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.wemagine.basic.wemagine]' package. Please check your configuration.
+[INFO ] 15:22:35.234 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 15:22:35.242 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 15:22:35.243 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:22:35.243 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 15:22:35.459 org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 15:22:35.464 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:22:35.465 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1139 ms
+[INFO ] 15:22:35.629 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 15:22:35.694 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 15:22:35.782 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+[INFO ] 15:22:35.943 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 15:22:36.067 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+[INFO ] 15:22:36.231 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 15:22:36.241 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 15:22:36.272 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 15:22:36.393 o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 15:22:36.620 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 15:22:36.642 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 15:22:36.660 c.w.b.wemagine.WemagineApplication - Started WemagineApplication in 2.742 seconds (JVM running for 4.265)
+[INFO ] 15:26:51.364 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 15:26:52.320 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8000"]
+[INFO ] 15:26:52.321 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 15:26:52.324 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8000"]
+[INFO ] 15:26:52.326 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8000"]
+[INFO ] 15:26:52.329 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 15:26:52.330 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 15:26:52.334 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
