@@ -16,9 +16,6 @@ public interface NoticeJpaRepository extends JpaRepository<Notice, Integer> {
 	
 	//Entity 필드값으로 조회메서드를 추가하고싶은경우 findBy~ 선언하면 JPA가 알아서 구현핸준다 
 	
-	//공개 공지사항 
-	List<Notice> findByIsOpen(int is_open);
-	
 	
 
 }

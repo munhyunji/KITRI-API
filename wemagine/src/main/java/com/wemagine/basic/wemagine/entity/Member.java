@@ -30,76 +30,104 @@ public class Member {
 	@Column( length = 50, nullable = false )
 	private String datetime;
 	
-	@Column(name = "userType", length = 30, nullable = false)
-	private String user_type; 
+	@Column(name = "user_type", length = 30, nullable = false)
+	private String userType; 
 	
-	@Column(name = "userId", length = 50, nullable = false)
-	private String user_id;
+	@Column(name = "user_id", length = 50, nullable = false)
+	private String userId;
 	
 	@Column(name = "user_name", length = 50, nullable = false)
 	private String userName;
 	
 	@Column(name = "user_pwd", length = 255, nullable = false)
-	private String user_pwd;
+	private String userPwd;
 
+	
+	
 	public int getBid() {
 		return bid;
 	}
+
+
 
 	public void setBid(int bid) {
 		this.bid = bid;
 	}
 
+
+
 	public String getDatetime() {
 		return datetime;
 	}
+
+
 
 	public void setDatetime(String datetime) {
 		this.datetime = datetime;
 	}
 
-	public String getUser_type() {
-		return user_type;
+
+
+	public String getUserType() {
+		return userType;
 	}
 
-	public void setUser_type(String user_type) {
-		this.user_type = user_type;
+
+
+	public void setUserType(String userType) {
+		this.userType = userType;
 	}
 
-	public String getUser_id() {
-		return user_id;
+
+
+	public String getUserId() {
+		return userId;
 	}
 
-	public void setUser_id(String user_id) {
-		this.user_id = user_id;
+
+
+	public void setUserId(String userId) {
+		this.userId = userId;
 	}
+
+
 
 	public String getUserName() {
 		return userName;
 	}
 
+
+
 	public void setUserName(String userName) {
 		this.userName = userName;
 	}
 
-	public String getUser_pwd() {
-		return user_pwd;
+
+
+	public String getUserPwd() {
+		return userPwd;
 	}
 
-	public void setUser_pwd(String user_pwd) {
-		this.user_pwd = user_pwd;
+
+
+	public void setUserPwd(String userPwd) {
+		this.userPwd = userPwd;
 	}
 
-	public Member(int bid, String datetime, String user_type, String user_id, String userName, String user_pwd) {
+
+
+	public Member(int bid, String datetime, String userType, String userId, String userName, String userPwd) {
 		super();
 		this.bid = bid;
 		this.datetime = datetime;
-		this.user_type = user_type;
-		this.user_id = user_id;
+		this.userType = userType;
+		this.userId = userId;
 		this.userName = userName;
-		this.user_pwd = user_pwd;
+		this.userPwd = userPwd;
 	}
-	
+
+
+
 	public Member() {};
 	
 	

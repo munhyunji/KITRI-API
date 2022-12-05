@@ -5,6 +5,9 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.wemagine.basic.wemagine.dto.MemberDto;
+import com.wemagine.basic.wemagine.entity.Member;
+import com.wemagine.basic.wemagine.repository.MemberJpaRepository;
 import com.wemagine.basic.wemagine.repository.NoticeRepository;
 import com.wemagine.basic.wemagine.serviceImpl.MemberServiceImpl;
 import com.wemagine.basic.wemagine.vo.NoticeVO;
@@ -13,16 +16,16 @@ import com.wemagine.basic.wemagine.vo.MemberVO;
 
 @Service
 public class MemberService implements MemberServiceImpl {
-	
+	 	
 	@Override
-	public MemberVO getMember() {
-			MemberVO member = new MemberVO();
-			member.setDatetime("2022-11-24");
-			member.setUser_type("user");
-			member.setUset_id("test1234");
-			member.setUser_name("스프링유저");
-			member.setUser_pwd("1234");
-			
+	public Member insertMember(MemberDto memberDto) {
+		Member member = new Member();
+		member.setDatetime(memberDto.getDatetime());
+		member.setUserType(member.getUserType());
+		member.setUserId(member.getUserId());
+		member.setUserPwd(member.getUserPwd());
+		member.setUserName(member.getUserName());
+		
 		return member;
 	}
 	

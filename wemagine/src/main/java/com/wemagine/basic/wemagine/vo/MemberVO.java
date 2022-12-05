@@ -18,8 +18,6 @@ public class MemberVO {
 		private String user_name;
 		private String user_pwd;
 		
-		
-		
 		public int getBid() {
 			return bid;
 		}
@@ -89,8 +87,7 @@ public class MemberVO {
 		public void setUser_pwd(String user_pwd) {
 			this.user_pwd = user_pwd;
 		}
-			
-		
+
 
 
 		public MemberVO(int bid, String datetime, String user_type, String uset_id, String user_name, String user_pwd) {
