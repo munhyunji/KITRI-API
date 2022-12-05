@@ -87,6 +87,5 @@ public class NoticeController {
 		noticeJpaRepository.deleteById(bid);
 	}
 		
-	
 
 }
